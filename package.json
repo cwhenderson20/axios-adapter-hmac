@@ -26,6 +26,7 @@
 	},
 	"devDependencies": {
 		"@app-press/eslint-config": "^2.0.2",
+		"coveralls": "^3.0.0",
 		"eslint": "^4.8.0",
 		"eslint-config-prettier": "^2.6.0",
 		"eslint-plugin-import": "^2.7.0",
@@ -37,6 +38,10 @@
 		"prettier": "^1.7.4"
 	},
 	"lint-staged": {
-		"*.js": ["eslint --fix", "git add", "jest --bail --findRelatedTests"]
+		"*.js": [
+			"eslint --fix",
+			"git add",
+			"jest --bail --findRelatedTests"
+		]
 	}
 }
