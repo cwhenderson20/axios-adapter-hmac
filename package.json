@@ -22,7 +22,7 @@
 	},
 	"dependencies": {
 		"debug": "^3.1.0",
-		"hmac-scheme-plain": "^0.1.0"
+		"hmac-scheme-plain": "^0.1.1"
 	},
 	"devDependencies": {
 		"@app-press/eslint-config": "^2.0.2",
@@ -38,10 +38,6 @@
 		"prettier": "^1.7.4"
 	},
 	"lint-staged": {
-		"*.js": [
-			"eslint --fix",
-			"git add",
-			"jest --bail --findRelatedTests"
-		]
+		"*.js": ["eslint --fix", "git add", "jest --bail --findRelatedTests"]
 	}
 }

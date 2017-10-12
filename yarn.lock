@@ -1271,9 +1271,9 @@ hawk@~6.0.2:
     hoek "4.x.x"
     sntp "2.x.x"
 
-hmac-scheme-plain@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/hmac-scheme-plain/-/hmac-scheme-plain-0.1.0.tgz#4b194d376a10d44fe2d17f449c5f4d395fc56bb8"
+hmac-scheme-plain@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/hmac-scheme-plain/-/hmac-scheme-plain-0.1.1.tgz#1a3c797d12b35b9b5532ba296deeffba0d32ce22"
   dependencies:
     debug "^3.1.0"
 
