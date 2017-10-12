@@ -1,5 +1,8 @@
 # axios-adapter-hmac
 
+[![Build Status](https://travis-ci.org/cwhenderson20/axios-adapter-hmac.svg?branch=master)](https://travis-ci.org/cwhenderson20/axios-adapter-hmac)
+[![Coverage Status](https://coveralls.io/repos/github/cwhenderson20/axios-adapter-hmac/badge.svg)](https://coveralls.io/github/cwhenderson20/axios-adapter-hmac)
+
 Sign axios HTTP requests with a customizable HMAC signature
 
 ## Installation
