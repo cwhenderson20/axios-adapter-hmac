@@ -1,0 +1,42 @@
+{
+	"name": "axios-adapter-hmac",
+	"version": "0.1.0",
+	"description": "Adapter for HMAC signing axios requests",
+	"engines": {
+		"node": ">=6"
+	},
+	"main": "src/index.js",
+	"author": "Chris Henderson <cwhenderson20@gmail.com>",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:cwhenderson20/axios-adapter-hmac.git"
+	},
+	"license": "MIT",
+	"scripts": {
+		"lint": "eslint src",
+		"pretest": "npm run lint -S",
+		"test": "jest",
+		"precommit": "lint-staged",
+		"test:coverage": "npm run test -- --coverage",
+		"coveralls": "cat ./coverage/lcov.info | coveralls"
+	},
+	"dependencies": {
+		"debug": "^3.1.0",
+		"hmac-scheme-plain": "^0.1.0"
+	},
+	"devDependencies": {
+		"@app-press/eslint-config": "^2.0.2",
+		"eslint": "^4.8.0",
+		"eslint-config-prettier": "^2.6.0",
+		"eslint-plugin-import": "^2.7.0",
+		"eslint-plugin-node": "^5.2.0",
+		"eslint-plugin-prettier": "^2.3.1",
+		"husky": "^0.14.3",
+		"jest": "^21.2.1",
+		"lint-staged": "^4.2.3",
+		"prettier": "^1.7.4"
+	},
+	"lint-staged": {
+		"*.js": ["eslint --fix", "git add", "jest --bail --findRelatedTests"]
+	}
+}
